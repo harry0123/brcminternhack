@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: #7FFF00;
+	color: #0000FF;
 	background-image: url('triangular.png');
 	position: relative;
 }
@@ -39,7 +39,8 @@ h1 {
 .red {
 	background: #cb4e4e;
 	color: #fff;
-	box-shadow: 0 6px #ab3c3c;
+	box-shadow: 0 4px #ab3c3c;
+	top: 2px;
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
@@ -49,16 +50,25 @@ h1 {
 	padding: 0;
 }
 
-.red:hover {
-	box-shadow: 0 4px #ab3c3c;
-	top: 2px;
+.redblink {
+	background: #cb4e4e;
+	color: #fff;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	padding: 0;
+	box-shadow: 0 0 12px 12px #ab3c3c;
 }
 
 /* yellow */
 .yellow {
 	background: #fcd04b;
 	color: #fff;
-	box-shadow: 0 6px #f29e0d;
+	box-shadow: 0 4px #f29e0d;
+	top: 2px;
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
@@ -68,34 +78,25 @@ h1 {
 	padding: 0;
 }
 
-.yellow:hover {
-	box-shadow: 0 4px #f29e0d;
-	top: 2px;
+.yellowblink {
+	background: #fcd04b;
+	color: #fff;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	padding: 0;
+	box-shadow: 0 0 12px 12px #f29e0d;
 }
 
 /* green */
 .green {
 	background: #2ecc71;
 	color: #fff;
-	box-shadow: 0 6px #24b662;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
-	border-radius: 50%;
-	width: 90px;
-	height: 90px;
-	padding: 0;
-}
-
-.green:hover {
 	box-shadow: 0 4px #24b662;
 	top: 2px;
-}
-
-.white {
-	background: #fff;
-	color: #fff;
-	box-shadow: 0 6px #aaa;
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
@@ -105,7 +106,28 @@ h1 {
 	padding: 0;
 }
 
-.white:hover {
+.greenblink {
+	background: #2ecc71;
+	color: #fff;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	padding: 0;
+	box-shadow: 0 0 12px 12px #24b662;
+}
+.white{
+	background: #fff;
+	color: #fff;
 	box-shadow: 0 4px #aaa;
 	top: 2px;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	padding: 0;
 }

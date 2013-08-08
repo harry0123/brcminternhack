@@ -4,11 +4,17 @@
 	<head>
 		<meta name="description" content="Monitor your area"/>
 		<meta charset="utf-8">
-		<title>SHriMP</title>
+		<meta http-equiv="refresh" content="5">
+		<title>Proxmd</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+		<script type="text/javascript" src="{{ url_for('static', filename='jquery-2.0.3.min.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='jquery-ui.min.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='jquery.animate-shadow-min.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='jquery.timers-1.1.2.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='blink.js') }}"></script>
 	</head>
 	
-	<body><h1>Proximity Monitor</h1>{% block div %}{% endblock %}	</body>
+	<body><h1>Proxmd</h1>{% block div %}{% endblock %}	</body>
 		
 </html>
